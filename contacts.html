@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="preload" href="./assets/fonts/Satoshi-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Satoshi-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Gambetta-LightItalic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="preload" href="./assets/fonts/Chillax-Light.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Contacts</title>
+		<script type="module" crossorigin="" src="./js/contacts.min.js?v=1769008389821"></script>
+		<link rel="modulepreload" crossorigin="" href="./js/common.min.js?v=1769008389821">
+		<link rel="modulepreload" crossorigin="" href="./js/main.min.js?v=1769008389821">
+		<link rel="modulepreload" crossorigin="" href="./js/socialblock.min.js?v=1769008389821">
+		<link rel="modulepreload" crossorigin="" href="./js/title.min.js?v=1769008389821">
+		<link rel="modulepreload" crossorigin="" href="./js/labeltext.min.js?v=1769008389821">
+		<link rel="stylesheet" crossorigin="" href="./css/main.min.css?v=1769008389821">
+		<link rel="stylesheet" crossorigin="" href="./css/socialblock.min.css?v=1769008389821">
+		<link rel="stylesheet" crossorigin="" href="./css/labeltext.min.css?v=1769008389821">
+		<link rel="stylesheet" crossorigin="" href="./css/contacts.min.css?v=1769008389821">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header" data-fls-header="" data-fls-header-scroll="100" data-fls-header-scroll-show="">
+				<div class="header__container">
+					<div class="header__body">
+						<a class="header__link-logo" href="index.html">
+							<img class="header__logo" src="./assets/img/logo.svg" alt="Logo">
+						</a>
+						<div class="header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a class="menu__link" href="/services.html">Services</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="/work.html">Work</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="/about.html">About</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="/blog.html">Blog</a>
+									</li>
+									<li class="menu__item">
+										<a class="menu__link" href="/pricing.html">Pricing</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<!--
+<fetch url="@components/layout/menu/menu.json">
+<each loop='item in response'>
+</each>
+</fetch>
+-->
+						<a class="header__button button button--light" href="/contacts.html" data-fls-button="">Let’s talk</a>
+						<button type="button" data-fls-menu="" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+				</div>
+			</header>
+			<main class="page">
+				<article class="contacts" data-fls-contacts="">
+					<div class="contacts__container">
+						<figure class="contacts__piture">
+							<picture>
+								<source media="(max-width: 600px)" srcset="./assets/img/arik-600.webp 1x,./assets/img/arik-600-2x.webp 2x,./assets/img/arik-600-3x.webp 3x" type="image/webp">
+								<img class="contacts__image" alt="Image" src="./assets/img/arik.webp" srcset="./assets/img/arik.webp 1x,./assets/img/arik-2x.webp 2x,./assets/img/arik-3x.webp 3x">
+							</picture>
+						</figure>
+						<div class="contacts__body">
+							<div class="contacts__form form-contacts" data-fls-borderitem="">
+								<div class="form-contacts__header">
+									<div class="form-contacts__label" data-fls-labeltext="">Contact</div>
+									<h1 class="form-contacts__title h2" data-fls-title="">Let’s get in touch.</h1>
+								</div>
+								<form class="form-contacts__body" method="POST" action="/sendmail/index.php" data-fls-form="ajax" data-fls-form-popup="popup">
+									<div class="form-contacts__line">
+										<input class="form-contacts__input" data-fls-input="" type="text" name="name" data-fls-form-errtext="Name required" placeholder="name" required>
+									</div>
+									<div class="form-contacts__line">
+										<input class="form-contacts__input" data-fls-input="" type="email" name="email" data-fls-form-errtext="E-mail error" placeholder="email" required>
+									</div>
+									<textarea class="form-contacts__input" data-fls-input="" data-fls-input-autoheight="" autocomplete="off" name="message" placeholder="message"></textarea>
+									<button class="form-contacts__button button button--light" type="submit">Send Message</button>
+								</form>
+							</div>
+							<ul class="contacts__social social-block" data-fls-socialblock="">
+								<li class="social-block__item">
+									<a class="social-block__link social-block__item--icon-s-in" href="#" target="_blank" data-fls-borderitem="">Instagram</a>
+								</li>
+								<li class="social-block__item">
+									<a class="social-block__link social-block__item--icon-s-tw" href="#" target="_blank" data-fls-borderitem="">Twitter</a>
+								</li>
+								<li class="social-block__item">
+									<a class="social-block__link social-block__item--icon-s-fb" href="#" target="_blank" data-fls-borderitem="">Facebook</a>
+								</li>
+								<li class="social-block__item">
+									<a class="social-block__link social-block__item--icon-s-bh" href="#" target="_blank" data-fls-borderitem="">Behance</a>
+								</li>
+								<li class="social-block__item">
+									<a class="social-block__link social-block__item--icon-s-db" href="#" target="_blank" data-fls-borderitem="">Dribbble</a>
+								</li>
+								<li class="social-block__item">
+									<a class="social-block__link social-block__item--icon-s-pr" href="#" target="_blank" data-fls-borderitem="">Pinterest</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</article>
+			</main>
+			<aside class="page__lets lets" data-fls-lets="">
+				<div class="lets__line line-talk border-item" data-fls-borderitem="" data-fls-marquee="" data-fls-marquee-speed="100">
+					<div class="line-talk__item">Let’s talk</div>
+					<div class="line-talk__item">+++</div>
+				</div>
+				<section class="lets__body" data-fls-watcher="">
+					<div class="lets__container">
+						<div class="lets__blockhead blockhead blockhead--gap-8" data-fls-blockhead="">
+							<span class="blockhead__label">Project in mind?</span>
+							<h2 class="blockhead__title">
+								Let’s make your
+								<span>Website shine</span>
+							</h2>
+							<div class="blockhead__text">
+								<p>Premium web design, webflow, and SEO services to help your business stand out.</p>
+							</div>
+							<a class="blockhead__button button button--icon button--light button--icon-arrow button--arrow-ur" href="#" data-fls-button="">Get in touch</a>
+						</div>
+					</div>
+				</section>
+			</aside>
+			<footer class="footer" data-fls-footer="" data-fls-watcher="">
+				<div class="footer__container">
+					<div class="footer__body body-footer">
+						<div class="body-footer__content content-footer">
+							<a class="content-footer__link-logo" href="#">
+								<img class="content-footer__logo" src="./assets/img/logo.svg" alt="Logo">
+							</a>
+							<ul class="content-footer__socials social social--text" data-fls-social="">
+								<li class="social__item">
+									<a class="social__link social__link--icon-s-in" href="#" target="_blank">Instagram</a>
+								</li>
+								<li class="social__item">
+									<a class="social__link social__link--icon-s-tw" href="#" target="_blank">Twitter</a>
+								</li>
+								<li class="social__item">
+									<a class="social__link social__link--icon-s-db" href="#" target="_blank">Dribbble</a>
+								</li>
+								<li class="social__item">
+									<a class="social__link social__link--icon-s-bh" href="#" target="_blank">Behance</a>
+								</li>
+							</ul>
+						</div>
+						<div class="body-footer__menus" data-fls-spollers="767.98">
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Home</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Services</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">About</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Contact</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__button button button--icon button--light button--icon-arrow button--arrow-ur" href="#" data-fls-button="">More Templates</a>
+									</li>
+								</ul>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">CMS</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Work</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Work Single</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Blog</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Blog Post</a>
+									</li>
+								</ul>
+							</details>
+							<details class="body-footer__menu">
+								<summary>
+									<h5 class="body-footer__title">Utility Pages</h5>
+								</summary>
+								<ul class="body-footer__list">
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">404 Error Page</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Password Protected</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Styleguide</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Licensing</a>
+									</li>
+									<li class="body-footer__item">
+										<a class="body-footer__link" href="#">Changelog</a>
+									</li>
+								</ul>
+							</details>
+						</div>
+					</div>
+					<div class="footer__bottom bottom-footer">
+						<div class="bottom-footer__copy">© 2022 Made by Pawel Gola. Powered by Framer..</div>
+						<a class="bottom-footer__button button button--text button--text-big button--text-rev button--icon-arrow" href="#" data-fls-button="" data-fls-scrollto="main">to top</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="popup" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" data-fls-borderitem="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close --icon-plus"></button>
+					<div data-fls-popup-content="" class="popup__text">Message send! Witam!!:)</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
